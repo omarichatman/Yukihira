@@ -5,19 +5,48 @@ html, body {
 }
 
 nav {
-	background-color: black;
-	/* color: white; */
+	background-color: #262C3A;
+}
+
+.navbar .navbar-expand-lg > div > ul > li > a .nav-link {
+	color: white;
 }
 
 /* .pages {
 	width: 100%;
-	height: 500px;
+	height: 550px;
 } */
 
 #logo {
-	margin: auto 0;
-	width: 30%;
-	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.page-header {
+	font-size: 40px;
+	color: black;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.promo {
+	background-color: white;
+	display: block;
+}
+
+.promo > div > img {
+	margin: 10px;*/
+}
+
+.promo > div > p {
+	margin: 5px;
+}
+
+/* .menu-header {
+	margin-left: auto;
+	margin-right: auto; */
 }
 
 .parallax {
@@ -34,22 +63,22 @@ nav {
 
 .parallax.parallax-1 {
 	/* background-image: url(""); */
-	background-color: blue;
+	background-color: #262C3A;
 }
 
 .parallax.parallax-2 {
 	/* background-image: url(""); */
-	background-color: red;
+	/* background-color: red; */
 }
 
 .parallax.parallax-3 {
 	/* background-image: url(""); */
-	background-color: green;
+	/* background-color: green; */
 }
 
 .parallax.parallax-4 {
 	/* background-image: url(""); */
-	background-color: purple;
+	/* background-color: purple; */
 }
 
 .parallax.parallax-5 {
